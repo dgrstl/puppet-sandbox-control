@@ -1,5 +1,7 @@
 class profile::puppetmaster {
 
+  include profile::base
+
   $hiera_yaml = "${::settings::confdir}/hiera.yaml"
 
   class { 'hiera':

@@ -6,4 +6,5 @@ class role::pe_node {
     }
   }
 
+  include profile::base
 }

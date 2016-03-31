@@ -11,6 +11,7 @@ mod "saz/ssh",                :latest
 mod "jpadams-puppet_vim_env", :latest
 mod "puppetlabs-vcsrepo",     :latest
 mod "stahnma/epel",           :latest
+mod "puppetlabs/git",         :latest
 
 #An example of using a specific forge module version instead of latest
 #Notice the addition of single quotes
